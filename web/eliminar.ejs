@@ -1,0 +1,20 @@
+<%- include('header') -%>
+
+<h1>Eliminar Producto</h1>
+<form action="/eliminar/<%=modelo.ID %>" method="post">
+<div class="form-horizontal">
+
+    <%- include('eliminarprincipal') -%>
+
+<div class="form-group row">
+<label class="col-form-label col-sm-2"></label>
+<div class="col-sm-10">
+<input type="submit" value="Eliminar Producto" class=" btn btn-default btn-danger" />
+<a class="btn btn-outline-dark cancel" href="/productos">Cancelar</a>
+</div>
+</div>
+
+</div>
+</form>
+
+<%- include('footer') -%>

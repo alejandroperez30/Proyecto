@@ -1,0 +1,198 @@
+body{
+    width:750px;
+    margin: 0 auto;
+    background-color: rgb(128, 128, 128);
+
+}
+    
+h1{
+    text-align:center;
+}
+
+.principal{
+        width: 750px;
+        height: 600px;
+}
+
+.icono{
+    width:30px;
+    height:20px;
+}
+        
+.fijo{
+    width:35px;
+}
+        
+p{
+    text-align:justify;
+}
+        
+footer{
+    width:750px;
+    border:solid 1px;
+    border-color:rgb(255, 255, 255);
+    background-color: rgb(161, 161, 161);
+    color: black;
+}
+        
+address{
+    padding-top:15px;
+    font-family:"Times New Roman";
+    text-align:center;
+}   
+
+
+.catalogocss {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+    body {
+        font-family: 'Space Grotesk', sans-serif;
+        padding-top: 80px;
+    }
+
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin: 30px 0px;
+}
+    img {
+    width:auto;
+    height: 340px;
+    object-fit:fill;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.carrito{
+    filter: invert(100%);
+    width: 45px;
+    height: auto;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #2D4263;
+    border-radius: 20px;
+}
+.contenedor>div:hover{
+    background-color: #11294d;
+}
+
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion>p:first-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.informacion .precio {
+    font-size: 20px;
+    font-weight: 500;
+}
+.informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion button{
+    background-color: #b9b3b3;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion button:hover{
+    background-color: #2D4263;
+}
+.carrito{
+    width: 45px;
+    height: auto;
+}
+.textocarrito{
+
+    font-size:large;
+    text-align:left;
+    font-family: 'Montserrat', sans-serif;
+    height: 25px;
+}
+}
+
+.categoriacss {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+    body {
+        font-family: 'Space Grotesk', sans-serif;
+        padding-top: 80px;
+    }
+
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        margin: 30px 0px;
+}
+    img {
+    width:auto;
+    height: 340px;
+    object-fit:fill;
+    border-radius: 20px 20px 0px 0px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(68, 68, 68, 0.75);
+    background-color: rgb(0, 0, 0, 0.75);
+    border-radius: 20px;
+}
+.contenedor>div:hover{
+    background-color: #5f695f;
+}
+
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+.informacion button{
+    background-color: #b9b3b3;
+    width: 175px;
+    height: 90px;
+    border-radius: 106px;
+    border: none;
+
+    font-family: 'Arial';
+    font-size: 30px;
+    font-weight: 300;
+    cursor:pointer;
+}
+}

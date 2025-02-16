@@ -1,0 +1,128 @@
+<%- include('header') -%>
+
+<div class="catalogocss" id="catalogocss">
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header >
+        <h1>Catálogo de productos</h1> 
+        <div>
+        <img class="carrito" id="carrito" src="img/carrito-de-compras.png" alt="carrito"> 
+        <div id="numero">
+        </div>
+    </div>
+        <p class="textocarrito" id="textocarrito">Carrito de compras</p>
+        </header>
+        <div id="contenedor" class="contenedor">
+        <div>
+            <img src="img/newbalance_navy.jpg" alt="producto 1">
+            <div class="informacion">
+                <p>New Balance 550 Navy Blue</p>
+                <p class="precio">$140<span>.99</span></p>
+                <button onclick="MostrarAlerta()">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/af1.jpg" alt="producto 2">
+            <div class="informacion">
+                <p>Nike Air Force One White</p>                   
+                <p class="precio">$40<span>.99</span></p>
+                <button onclick="MostrarAlerta()">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/botas_timberland.jpg" alt="producto 3">
+            <div class="informacion">
+                <p>Botas Timberland</p>                   
+                <p class="precio">$54<span>.99</span></p>
+                <button onclick="MostrarAlerta()">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/retro1_azul.jpg" alt="producto 4">
+            <div class="informacion">
+                <p>Jordan Retro 1 Celeste</p>                   
+                <p class="precio">$47<span>.99</span></p>
+                <button onclick="MostrarAlerta()">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/retro1_low_gym_red.jpg" alt="producto 5">
+            <div class="informacion">
+                <p>Jordan Retro 1 Low Gym Red</p>                   
+                <p class="precio">$47<span>.99</span></p>
+                <button onclick="MostrarAlerta()">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/tn_white_plus.jpg" alt="producto 6">
+            <div class="informacion">
+                <p>Tn Triple White Plus</p>                   
+                <p class="precio">$54<span>.99</span></p>
+                <button onclick="MostrarAlerta()">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/adidas_campus.jpg" alt="producto 7">
+            <div class="informacion">
+                <p>Adidas Campus Verde</p>                   
+                <p class="precio">$119<span>.99</span></p>
+                <button onclick="MostrarAlerta()">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/converse_blanco_negro.jpg" alt="producto 8">
+            <div class="informacion">
+                <p>Converse Blanco y Negro</p>                   
+                <p class="precio">$16<span>.99</span></p>
+                <button onclick="MostrarAlerta()">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/skechers_lite_pro_negro.jpg" alt="producto 9">
+            <div class="informacion">
+                <p>Skechers Lite Pro Negro</p>                   
+                <p class="precio">$69<span>.99</span></p>
+                <button onclick="MostrarAlerta()">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/vans_old_skool.webp" alt="producto 10">
+            <div class="informacion">
+                <p>Vans Old Skool</p>                   
+                <p class="precio">$23<span>.99</span></p>
+                <button onclick="MostrarAlerta()">Comprar</button>
+            </div>
+        </div>
+
+</div>
+
+<script>
+
+function MostrarAlerta() {
+      alert("Has comprado exitosamente este producto");
+  }
+</script>
+    
+</body>
+</html>
+
+<%- include('footer') -%>

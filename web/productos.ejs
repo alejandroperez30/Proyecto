@@ -1,0 +1,36 @@
+<%- include('header') -%>
+
+<h1>Productos Registrados (<%= modelo.length%>)</h1>
+<div class="table-responsive-sm" style="width:750px;">
+<table class="table table-hover">
+<thead>
+<tr>
+<th>ID</th>
+<th>Producto</th>
+<th>Código</th>
+<th>Existencia Actual</th>
+<th>Precio ($$$)</th>
+<th class="d-print-none"><a class="btn btn-sm btn-success" href="/registrar"><img src="img/registrar.png" class="icono"></a> </th>
+</tr>
+</thead>
+
+<tbody>
+    <% for (const producto of modelo) { %>
+<tr>
+<td style="color: black;"><%= producto.ID%></td>
+<td style="color: black;"><%= producto.Producto%></td>
+<td style="color: black;"><%= producto.Codigo%></td>
+<td style="color: black;"><%= producto.Existencia_Actual%></td>
+<td style="color: black;"><%= producto.Precio%></td>
+<td class="fijo">
+    <a class="btn btn-sm btn-warning" href="/editar/<%-producto.ID%>"><img src="img/editar.png" class="icono"></a>
+    </td>
+    <td class="fijo">
+        <a class="btn btn-sm btn-danger" href="/eliminar/<%-producto.ID%>"><img src="img/eliminar.png" class="icono"></a>
+    </td>
+    </tr>
+    <% } %>
+    </tbody>
+    </table>
+    </div>
+<%- include('footer') -%>
