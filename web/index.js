@@ -74,7 +74,7 @@ if (err) {
 return console.error(err.message);
 }
 else{
-res.render("Productos.ejs",{modelo:rows});
+res.render("productos.ejs",{modelo:rows});
 }
 })
 });
