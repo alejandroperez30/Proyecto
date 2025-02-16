@@ -68,6 +68,10 @@ app.get('/catalogo', (req,res) =>{
       });
 
 app.get('/productos', (req,res) =>{
+            res.render('productos.ejs')
+            });
+
+app.get('/productos', (req,res) =>{
       const sql="SELECT * FROM Productos ORDER BY Producto";
 db.all(sql, [], (err, rows)=>{
 if (err) {
